@@ -1,0 +1,5 @@
+truth machine by Robin Nash
+this code takes either the character 0 or 1 as input;
+if 1 is inputted (or any character that isn't 0) it will print that character infinitely;
+if 0 is inputted it will print 0 and stop
+,.[>+>+<<-]+++++++[>-------<-]>+[>.<]
