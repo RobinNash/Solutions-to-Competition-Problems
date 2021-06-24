@@ -12,7 +12,7 @@ COSTAT .equ 0x4    ! Console Status Port
 CIN .equ 0x8       ! Keyboard Data Port
 CICTL .equ 0xc     ! Keyboard Control Port
 	.org 2048
- 	add %r0, %r0, %r4 ! Clear %r4
+ 	add %r0, %r0, %r4      ! Clear %r4
  	sethi BASE, %r4
 
 In:
